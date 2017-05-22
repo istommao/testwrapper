@@ -1,0 +1,11 @@
+cases:
+- assertions:
+  - status_code: 200
+  - errmsg: 成功
+  name: get_article
+- assertions:
+  - status_code: 400
+  - errmsg: 失败
+  name: get_article_2
+classname: ArticleAPITest
+name: 文章接口测试
